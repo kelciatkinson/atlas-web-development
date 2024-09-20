@@ -1,11 +1,51 @@
-
 body {
     margin: 0;
     padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    color: white;
 }
 header {
     background-image: url('images/pic_1.jpg');
     background-size: cover;
     background-position: center;
-    
+}
+
+.header-wrapper {
+    max-width: 1106px;
+    padding-top: 38px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 232px;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.title-container {
+    width: 800px;
+    text-align: center;
+}
+.title {
+    font-size: 120px;
+    font-weight: 700px;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    padding-top: 168px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-between;
+}
+.profiles div img {
+    width: 150px;
+    border-radius: 50%;
 }
