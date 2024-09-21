@@ -23,21 +23,23 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
 a {
     text-decoration: none;
     color: white;
     font-weight: 700;
 }
+
 .title-container {
     width: 800px;
+    margin: auto;
     text-align: center;
 }
+
 .title {
     font-size: 120px;
     font-weight: 700px;
     margin: auto;
-    width: 800px;
-    text-align: center;
     padding-top: 168px;
 }
 
@@ -48,4 +50,44 @@ a {
 .profiles div img {
     width: 150px;
     border-radius: 50%;
+}
+
+.subtitle-container {
+    width: 253px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+}
+button {
+    appearance: none;
+    outline: none;
+}
+
+.register-button {
+    border-radius: 22px;
+    text-align: center;
+    width: 181px;
+    height: 44px;
+    background-color: #C271FF;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    appearance: none;
+    outline: none
+}
+
+.register-button p {
+    font-size: 14px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+
 }
