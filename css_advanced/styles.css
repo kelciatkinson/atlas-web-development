@@ -115,7 +115,7 @@ button {
     justify-content: center;
 }
 
-.testimonial img{
+.testimonial img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -177,4 +177,3 @@ blockquote {
 .rating p {
     color: #C271FF;
 }
-
