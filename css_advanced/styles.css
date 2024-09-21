@@ -31,7 +31,7 @@ a {
 }
 
 .title-container {
-    width: 800px;
+    width: 1106px;
     margin: auto;
     text-align: center;
 }
@@ -81,6 +81,7 @@ button {
     appearance: none;
     padding: 0px;
     border: none;
+    cursor: pointer;
 }
 
 .register-button p {
@@ -94,3 +95,86 @@ button {
     padding: 0px;
     margin: 0px;
 }
+
+.h2 {
+    font-weight: bold;
+}
+
+.first-word {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.profiles {
+    padding-bottom: 58px;
+}
+
+.testimonial {
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.testimonial-container {
+    width: 950px;
+    height: 392px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+    font-size: 22px;
+}
+
+blockquote {
+    margin: 0;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.tutorials {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;;
+    flex-direction: column;
+    margin: auto;
+    color: #071629;
+}
+
+.tutorials h1 {
+    margin: 100px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+    color: 071629;
+}
+
+.tutorials-container {
+    width: 1111px;
+    display: flex;
+    margin: auto;
+}
+
+.tutorials img {
+    width: 255px;
+}
+
+.tutorials-container p {
+    color: #071629;
+}
+
+.tutorials-container h3 {
+    color:#C271FF
+}
+
+.rating p {
+    color: #C271FF;
+}
+
