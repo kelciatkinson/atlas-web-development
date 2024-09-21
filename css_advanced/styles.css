@@ -80,7 +80,8 @@ button {
     margin: auto;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
     appearance: none;
-    outline: none
+    padding: 0px;
+    border: none;
 }
 
 .register-button p {
@@ -89,5 +90,4 @@ button {
     display: flex;
     justify-content: center;
     padding: 0px;
-
 }
