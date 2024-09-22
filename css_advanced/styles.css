@@ -177,3 +177,23 @@ blockquote {
 .rating p {
     color: #C271FF;
 }
+
+.thumbnails {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.thumbnail-photo {
+    position: absolute;
+    width: 255px;
+}
+
+.play-button {
+    position: absolute;
+    max-width: 64px;
+    top: 46px;
+    right: 117px;
+}
