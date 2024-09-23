@@ -166,16 +166,26 @@ blockquote {
     width: 255px;
 }
 
-.tutorials-container p {
-    color: #071629;
+.tutorials-container h2 {
+    color:#071629;
+    position: absolute;
+    margin-top: 160px;
+    width: 255px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .tutorials-container h3 {
-    color:#C271FF
+    color:#C271FF;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 300px;
+    width: 255px;
 }
 
 .rating p {
     color: #C271FF;
+    margin-top: 220px;
 }
 
 .thumbnails {
@@ -183,7 +193,13 @@ blockquote {
     justify-content: center;
     align-items: center;
     margin: auto;
+}
 
+.video-description {
+    color: rgba(7, 22, 41, 0.50);
+    position: absolute;
+    width: 255px;
+    margin-top: 200px;
 }
 
 .thumbnail-photo {
