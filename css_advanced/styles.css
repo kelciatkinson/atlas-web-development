@@ -173,19 +173,14 @@ blockquote {
     width: 255px;
     font-size: 16px;
     font-weight: 700;
-}
-
-.tutorials-container h3 {
-    color:#C271FF;
-    font-weight: 600;
-    position: absolute;
-    margin-top: 300px;
-    width: 255px;
+    padding-top: 13px;
+    padding-left: 26px;
 }
 
 .rating p {
     color: #C271FF;
     margin-top: 220px;
+    padding: 22px;
 }
 
 .thumbnails {
@@ -193,13 +188,17 @@ blockquote {
     justify-content: center;
     align-items: center;
     margin: auto;
+    width: 255px;
 }
 
 .video-description {
     color: rgba(7, 22, 41, 0.50);
-    position: absolute;
-    width: 255px;
-    margin-top: 200px;
+    position: relative;
+    width: 242px;
+    top: 190px;
+    display: inline-block;
+    padding-left: 26px;
+    font-weight: 300;
 }
 
 .thumbnail-photo {
@@ -210,6 +209,34 @@ blockquote {
 .play-button {
     position: absolute;
     max-width: 64px;
-    top: 46px;
-    right: 117px;
+    top: 47px;
+    right: 95px;
+}
+
+.inline-container {
+    display: flex;
+    align-items: center;
+    margin-top: 190px;
+    padding-left: 26px;
+}
+
+.author-container {
+    background-image: url(images/profile_1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.tutorials-container h3 {
+    color:#C271FF;
+    font-size: 14px;
+    font-weight: 600;
+    width: 255px;
+    padding-left: 56px;
+    display: inline-block;
+    margin-top: 6px;
+    padding-left: 42px;
 }
