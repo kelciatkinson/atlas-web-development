@@ -383,3 +383,85 @@ div.stars {
     margin-top: 85px;
     margin-bottom: 52px;
 }
+
+.faq {
+    color:#071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    margin: auto;
+}
+
+.faq h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.faq h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.faq p {
+    color: rgba(7, 22, 41, 0.50);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 920px;
+    margin-bottom: 84px;
+}
+
+.container-for-faq {
+    margin-top: 30px;
+    width: 350px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #071629;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1036px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 95px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 129px;
+}
+
+.footer-text {
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 39px;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 400;
+    opacity: 0.3517;
+}
