@@ -3,6 +3,8 @@ body {
     padding: 0;
     font-family: "Source Sans 3", sans-serif;
     color: white;
+    text-align: center;
+    align-items: center;
 }
 header {
     background-image: url('images/pic_1.jpg');
@@ -22,12 +24,14 @@ nav {
     width: 232px;
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
 
 a {
     text-decoration: none;
     color: white;
     font-weight: 700;
+    margin: auto;
 }
 
 .title-container {
@@ -179,8 +183,10 @@ blockquote {
 
 .rating p {
     color: #C271FF;
-    margin-top: 220px;
-    padding: 22px;
+    margin-top: 0px;
+    padding-left: 78px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .thumbnails {
@@ -239,4 +245,52 @@ blockquote {
     display: inline-block;
     margin-top: 6px;
     padding-left: 42px;
+}
+
+.rating {
+    padding-left: 26px;
+    padding-top: 16px;
+    display: flex;
+
+}
+.rating img {
+    width: 15px;
+    height: 15px;
+}
+
+.membership {
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.membership h1 {
+    font-weight: 300;
+    font-size: 32px;
+}
+.smiles-container {
+    width: 1068px;
+    display: flex;
+    justify-content: center;
+}
+
+.smiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.smiles img {
+    width: 43.66px;
+    height: 35.353px;
+}
+
+.smiles h2 {
+    font-size: 18px;
+    font-weight: 600;
 }
