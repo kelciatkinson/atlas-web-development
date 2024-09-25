@@ -8,6 +8,7 @@ header {
     background-image: url('images/pic_1.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .header-wrapper {
