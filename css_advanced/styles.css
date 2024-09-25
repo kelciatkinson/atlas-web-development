@@ -295,6 +295,8 @@ blockquote {
 .membership h1 {
     font-weight: 300;
     font-size: 32px;
+    margin-top: 70px;
+    margin-bottom: 58px;
 }
 
 .smiles-container {
@@ -311,6 +313,11 @@ blockquote {
     align-items: center;
 }
 
+.smiles div {
+    margin-right: 22px;
+    margin-left: 23px;
+}
+
 .smiles img {
     width: 43.66px;
     height: 35.353px;
@@ -319,6 +326,8 @@ blockquote {
 .smiles h2 {
     font-size: 18px;
     font-weight: 600;
+    margin-top: 27px;
+    margin-bottom: 13px;
 }
 
 .smiles p {
@@ -346,4 +355,6 @@ blockquote {
     white-space: nowrap;
     justify-content: center;
     margin: auto;
+    margin-top: 85px;
+    margin-bottom: 52px;
 }
