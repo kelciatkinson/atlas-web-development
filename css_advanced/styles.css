@@ -272,18 +272,23 @@ blockquote {
     margin-top: 6px;
     padding-left: 42px;
 }
-
-.rating {
+div.inline-container {
+    margin-bottom: 0px;
+}
+div.rating {
     padding-left: 26px;
     padding-top: 16px;
-    display: flex;
-
+    margin-top: 0px;
 }
+
 .rating img {
     width: 15px;
     height: 15px;
 }
 
+div.stars {
+    margin-top: 0px;
+}
 .membership {
     background-color: #071629;
     display: flex;
